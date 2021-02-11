@@ -1,0 +1,17 @@
+.container {
+  width: 90vw;
+  max-width: 1920px;
+
+ margin: auto;
+}
+
+img {
+  display: block;
+
+  border: 1px solid black;  /* to see size of broken images */
+
+  width: 100%;
+  height: auto;  /* from sample-code/frontend/image-preformance/width-height/index.html */
+                 /* setting height to auto fixes repsonsiveness and overrides height attribute */
+                 /* could use object-fit: contain or object-fit: cover; */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Ed Irvine"> 
+  <meta name="description" content="An image viewing page with responsive images">
+
+  <title>CPNT201 - A2</title>
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main class="container">
+    <h1>Types of Guitars</h1>
+    
+    <h2>Acoustic Guitar</h2>
+    <img src="assets/images/med/acoustic_md.jpg" 
+
+    srcset="assets/images/lrg/acoustic_lg.webp 2000w,
+            assets/images/med/acoustic_md.jpg 1500w,
+            assets/images/sml/acoustic_sm.jpg 750w"
+    
+    width="1024"
+    height="512"
+
+    loading="lazy"
+
+    alt="an image of a man playing acoustic guitar">
+
+    <h2>Bass Guitar</h2>
+    <img src="assets/images/med/bass_md.jpg" 
+    
+    srcset="assets/images/lrg/bass_lg.webp 2000w,
+            assets/images/med/bass_md.jpg 1500w,
+            assets/images/sml/bass_sm.jpg 750w"
+    
+    width="1024"
+    height="512"
+
+    loading="lazy"
+
+    alt="an image of a girl with a bass guitar">
+
+    <h2>Electric Guitar</h2>
+    <img src="assets/images/med/electric_md.jpg" 
+    
+    srcset="assets/images/lrg/electric_lg.webp 2000w,
+            assets/images/med/electric_md.jpg 1500w,
+            assets/images/sml/electric_sm.jpg 750w"
+    
+    width="1024"
+    height="512"
+
+    loading="lazy"
+
+    alt="an image of an electric guitar">
+  
+  </main>
+
+  <footer>
+    <p>&copy; Ed Irvine 2021.</p>
+  </footer>
+  
+</body>
+
+</html>
